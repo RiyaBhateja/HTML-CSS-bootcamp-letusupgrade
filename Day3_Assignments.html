@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>Webpage Layout</title>
+		<style>
+			.container {
+			  display: flex;
+			  flex-wrap: wrap;
+			  justify-content: center;
+			}
+
+			.card {
+			  width: 300px;
+			  height: 300px;
+			  margin: 10px;
+			  background-color: #f1f1f1;
+			  border-radius: 5px;
+			  display: flex;
+			  flex-direction: column;
+			  justify-content: center;
+			  align-items: center;
+			}
+
+			.card-title {
+			  font-size: 24px;
+			  margin-bottom: 10px;
+			}
+
+			.card-image {
+			  width: 150px;	
+			  height: 150px;
+			  border-radius: 50%;
+			  object-fit: cover;
+			}
+
+			.card-content {
+			  text-align: center;
+			  padding: 10px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="card">
+				<h2 class="card-title">Card 1</h2>
+    				<img src="card1.jpg" alt="Card 1 Image" class="card-image">
+    				<p class="card-content">Card1</p>
+  			</div>
+  				<div class="card">
+    				<h2 class="card-title">Card 2</h2>
+    				<img src="card2.jpg" alt="Card 2 Image" class="card-image">
+    				<p class="card-content">Card2</p>
+  			</div>
+  			<div class="card">
+    				<h2 class="card-title">Card 3</h2>
+    				<img src="card3.jpg" alt="Card 3 Image" class="card-image">
+    				<p class="card-content">Card3</p>
+  			</div>
+		</div>
+
+		<font style="font-size:10px">
+			<p>Submitted by Riya Bhateja(rbriyabhateja@gmail.com)</p>
+		</font>
+	</body>
+</html>
